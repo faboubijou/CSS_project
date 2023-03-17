@@ -45,3 +45,31 @@ button,
     font-size: 36px;
     font-style: italic;
 }
+
+.subimage {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.sub {
+    border: solid 5px;
+    border-color: #3882F6;
+    width: 100px;
+    height: 100px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.list_header {
+    display: flex;
+}
+
+.subtext {
+    display: flex;
+}
