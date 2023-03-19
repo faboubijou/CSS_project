@@ -1,5 +1,6 @@
 body {
     font-family: "Roboto";
+    margin: 0;
 }
 
 .section1,
@@ -25,6 +26,15 @@ body {
 .subtext {
     font-size: 18px;
     color: #E5E7EB;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.subsub {
+    width: 110px;
+    height: 110px;
+    text-align: center;
 }
 
 button,
@@ -44,6 +54,9 @@ button,
     color: #1F2937;
     font-size: 36px;
     font-style: italic;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .subimage {
@@ -68,8 +81,30 @@ button,
 
 .list_header {
     display: flex;
+    gap: 10px;
 }
 
-.subtext {
+
+.blue {
     display: flex;
+    justify-content: space-around;
+    margin: 100px 500px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blued {
+    display: flex;
+    align-items: center;
+}
+
+.section2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
