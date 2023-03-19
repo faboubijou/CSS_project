@@ -7,6 +7,8 @@ body {
 .footer {
     background-color: #1F2937;
     color: #F9FAF8;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .logo {
@@ -14,8 +16,10 @@ body {
 }
 
 .list_header,
-.subtext {
+.subtextl {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 .main_title {
@@ -23,9 +27,9 @@ body {
     font-weight: bold;
 }
 
-.subtext {
+.subtextl {
     font-size: 18px;
-    color: #E5E7EB;
+    color: #9e9ea5;
     display: flex;
     gap: 10px;
     justify-content: center;
@@ -41,6 +45,8 @@ button,
 .blue {
     background-color: #3882F6;
     color: #F9FAF8;
+    border-radius: 5px;
+    border: 2px double white;
 }
 
 .random {
@@ -53,10 +59,18 @@ button,
     background-color: #E5E7EB;
     color: #1F2937;
     font-size: 36px;
-    font-style: italic;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    padding: 100px 200px;
+}
+
+.quote {
+    font-style: italic;
+}
+
+.author {
+    font-weight: bold;
+    text-align: right;
 }
 
 .subimage {
@@ -107,4 +121,29 @@ button,
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+.explain {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gauche {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 200px;
+}
+
+.droite {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    background-color: #535455;
+    height: 100px;
+    width: 300px;
+}
+
+.sign {
+    width: 100px;
 }
